@@ -11,14 +11,14 @@ using namespace std;
             - Testar o algoritmo para diferentes casos de entrada, variando o tamanho e conteúdo do vetor.
 */
 
-int searchValue(int x, int n, int a[], int index = 0) {
-    if(index >= n) {
+int searchValue(int x, int n, int a[]) {
+    if(n <= 0) {
         return -1;
     }
-    if(a[index] == x) {
-        return index;
+    if(a[n-1] == x) {
+        return n - 1;
     }
-    return searchValue(x, n, a, ++index);
+    return searchValue(x, --n, a);
 }
 
 int main() {

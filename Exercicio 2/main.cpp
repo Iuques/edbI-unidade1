@@ -6,8 +6,7 @@ using namespace std;
     Proposta: 
     Dado um vetor A de tamanho N, ordenado de forma crescente:
         - Implemente um algoritmo de busca binária na forma iterativa.
-            - Responder se complexidade temporal no pior caso e melhor caso é a
-            mesma que a versão recursiva.
+            - Responder se complexidade temporal no pior caso e melhor caso é a mesma que a versão recursiva.
             - Responder qual a complexidade espacial e temporal para a versão
             recursiva e iterativa.
             - Testar o algoritmo para diferentes casos de entrada,
